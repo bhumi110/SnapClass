@@ -1,4 +1,4 @@
-# 🎓 SnapClass – AI-Powered Smart Attendance System
+# 🎓 SnapClass | AI-Powered Smart Attendance System
 
 <div align="center">
 
@@ -55,3 +55,79 @@ The system combines modern computer vision, machine learning, and cloud database
 - Voice Embedding Generation
 - Biometric Authentication
 - Local AI Model Training
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/snapclass.git
+
+cd snapclass
+```
+
+### Create Virtual Environment
+
+Windows
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+Linux / Mac
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+---
+
+## 🔑 Configure Supabase
+
+Create
+
+```
+.streamlit/secrets.toml
+```
+
+Add
+
+```toml
+SUPABASE_URL="YOUR_SUPABASE_URL"
+
+SUPABASE_KEY="YOUR_SUPABASE_API_KEY"
+```
+
+---
+
+## 🗄 Database
+
+Execute the SQL schema inside your Supabase SQL Editor.
+
+The project creates tables for
+
+- Teachers
+- Students
+- Subjects
+- Subject Enrollments
+- Attendance Logs
+
+---
+
+## ▶ Running the Application
+
+```bash
+streamlit run app.py
+```
+
+---
