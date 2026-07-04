@@ -4,5 +4,6 @@ __pycache__/
 .env
 .vscode/
 .idea/
-.streamlit/
 .dist/
+
+.streamlit/secrets.toml
