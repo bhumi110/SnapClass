@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 📸 Face Recognition • 🎤 Voice Authentication • ☁️ Cloud Database • ⚡ Streamlit
+### 📸 Face Recognition • 🎤 Voice Authentication • ☁️ Cloud Database
 
 An intelligent attendance management system that automates classroom attendance using AI-powered face recognition with optional voice verification.
 
