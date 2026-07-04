@@ -1,4 +1,4 @@
-# 🎓 SnapClass | AI-Powered Smart Attendance System
+# SnapClass | AI-Powered Smart Attendance System
 
 <div align="center">
 
@@ -56,6 +56,24 @@ The system combines modern computer vision, machine learning, and cloud database
 - Biometric Authentication
 - Local AI Model Training
 ---
+## Machine Learning Pipeline
+
+### Face Recognition
+
+- Capture Image
+- Detect Face
+- Generate Face Embeddings
+- Train Classifier
+- Predict Student Identity
+
+### Voice Recognition
+
+- Record Audio
+- Generate Voice Embedding
+- Store Embedding
+- Verify Identity
+
+---
 
 ## ⚙️ Installation
 
@@ -92,7 +110,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 🔑 Configure Supabase
+## Configure Supabase
 
 Create
 
@@ -110,7 +128,7 @@ SUPABASE_KEY="YOUR_SUPABASE_API_KEY"
 
 ---
 
-## 🗄 Database
+## Database
 
 Execute the SQL schema inside your Supabase SQL Editor.
 
@@ -124,10 +142,8 @@ The project creates tables for
 
 ---
 
-## ▶ Running the Application
+## Running the Application
 
 ```bash
 streamlit run app.py
 ```
-
----
