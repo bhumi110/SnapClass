@@ -18,6 +18,7 @@ Students can securely register using their facial features (and optionally their
 
 The system combines modern computer vision, machine learning, and cloud databases to provide a seamless classroom experience.
 
+#### Link: https://snap-class-landing-three.vercel.app/
 ---
 
 ## ✨ Features
@@ -147,3 +148,5 @@ The project creates tables for
 ```bash
 streamlit run app.py
 ```
+---
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/2f180745-8ab7-4758-92cc-c3538d35e556"/>
